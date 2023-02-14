@@ -16,6 +16,7 @@
 		5067B57F28CA76A200F9C092 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067B57E28CA76A200F9C092 /* TicTacToeTests.swift */; };
 		5067B58928CA76A200F9C092 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067B58828CA76A200F9C092 /* TicTacToeUITests.swift */; };
 		5067B58B28CA76A200F9C092 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067B58A28CA76A200F9C092 /* TicTacToeUITestsLaunchTests.swift */; };
+		DD22325C299B208700723377 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22325B299B208700723377 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5067B58428CA76A200F9C092 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5067B58828CA76A200F9C092 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		5067B58A28CA76A200F9C092 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD22325B299B208700723377 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5067B57028CA76A200F9C092 /* Assets.xcassets */,
 				5067B57228CA76A200F9C092 /* LaunchScreen.storyboard */,
 				5067B57528CA76A200F9C092 /* Info.plist */,
+				DD22325B299B208700723377 /* Game.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				5067B56C28CA76A000F9C092 /* ViewController.swift in Sources */,
 				5067B56828CA76A000F9C092 /* AppDelegate.swift in Sources */,
 				5067B56A28CA76A000F9C092 /* SceneDelegate.swift in Sources */,
+				DD22325C299B208700723377 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
